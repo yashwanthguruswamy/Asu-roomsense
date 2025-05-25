@@ -55,7 +55,13 @@ Asu-roomsense/
 | ![Empty](Empty%20room_frame_100.png) | ![1](single_frame_50.png) | ![2](2%20person%20frame_0.png) | ![3](3%20person%20frame_0.png) |
 
 ---
+## 🚨 Alert Frame Example
 
+This frame was captured when the number of people in the room exceeded a preset zone capacity threshold. The system displays a red alert message and continues logging data for audit or response purposes.
+
+![Over Capacity Alert](alert_frame_140.png)
+
+---
 
 ##  Sample Output Log (CSV)
 
