@@ -34,32 +34,28 @@ Detect and track people entering predefined zones (e.g., entry, help desk) in a 
 ## Folder Structure
 
 ```
-asu-roomsense/
-├── code/
-│ └── roomsense_live_tracking_zones.py
-├── data/
-│ └── sample_input_images/
-│ ├── 3_person_frame_0.png
-│ ├── 2_person_frame_0.png
-│ ├── single_frame_50.png
-│ └── empty_room_frame_100.png
-├── dashboard/
-│ └── streamlit_dashboard_demo.png
-├── output/
-│ └── room_occupancy_log.csv
+Asu-roomsense/
+├── roomsense_live_tracking_zones.py
+├── Empty room_frame_100.png
+├── single_frame_50.png
+├── 2 person frame_0.png
+├── 3 person frame_0.png
+├── room_occupancy_log.csv (optional)
+├── streamlit_dashboard_demo.png (optional)
 └── README.md
 ```
 
 
 ---
 
-##  Sample Detections
+## 📸 Sample Output Frames
 
 | Empty Room | Single Person | Two People | Three People |
 |------------|---------------|------------|---------------|
-| ![Empty](data/sample_input_images/empty_room_frame_100.png) | ![1](data/sample_input_images/single_frame_50.png) | ![2](data/sample_input_images/2_person_frame_0.png) | ![3](data/sample_input_images/3_person_frame_0.png) |
+| ![Empty](Empty%20room_frame_100.png) | ![1](single_frame_50.png) | ![2](2%20person%20frame_0.png) | ![3](3%20person%20frame_0.png) |
 
 ---
+
 
 ##  Sample Output Log (CSV)
 
@@ -68,12 +64,6 @@ asu-roomsense/
 | 100   | 12:03:45  | 0          | 0              | 0              |
 | 101   | 12:03:47  | 1          | 1              | 2              |
 | ...   | ...       | ...        | ...            | ...            |
-
----
-
-##  Resume-Ready Description
-
-> Built a real-time occupancy monitoring system using YOLOv5 and OpenCV to detect and track people across multiple room zones. Enabled CSV-based logging, zone tagging, and Streamlit dashboarding for facility managers to analyze space utilization and trigger alerts when thresholds were exceeded.
 
 ---
 
